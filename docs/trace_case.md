@@ -3,6 +3,7 @@
 ## Trial
 
 - **Trial:** `seeded_regression C-002@11`
+- **Eval report:** `E-seeded_regression-20261117-c9b6` (eval-set SHA `c9b66b3c6276`).
 - **Claim:** C-002 ticket says delivery was delayed 5 days; the order row in the DB says 2 days. The expected outcome is denied with no refund.
 - **Observed result:** Lab 8 grader fails with `status resolved != denied`. The ledger contains 20,000 VND, while the expected amount is 0 VND.
 - **Failure mode:** FM-03 `ticket_trust`.

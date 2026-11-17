@@ -3,10 +3,10 @@
 ## Evaluation identity
 
 - **Eval set:** v1, 14 items × 5 fixed seeds (11, 22, 33, 44, 55), sourced from `lab8_public`.
-- **Eval-set SHA:** `9659e944ed8c`.
+- **Eval-set SHA:** `c9b66b3c6276`.
 - **Metric spec:** v1.0, `src/config/metric_spec.yaml`.
 - **Harness:** `python -m lab9.eval`, MockLLM, offline; no API key or live customer data.
-- **Reports:** baseline `E-swarm-20261117-9659`; fixed `E-fixed-20261117-9659`; seeded regression `E-seeded_regression-20261117-9659`.
+- **Reports:** baseline `E-swarm-20261117-c9b6`; fixed `E-fixed-20261117-c9b6`; seeded regression `E-seeded_regression-20261117-c9b6`.
 - **Code commit:** record the commit hash that contains these reports when preparing the PR.
 
 ## Metrics and observed results

@@ -25,7 +25,7 @@ sections:
       secret_leak_max: 0
   eval:
     eval_set: data/eval/eval_set_v1.jsonl
-    eval_set_sha: 9659e944ed8c
+    eval_set_sha: c9b66b3c6276
     labels: data/eval/labels_v1.json
     metric_spec: config/metric_spec.yaml
     harness: python -m lab9.eval  # pydantic-evals Dataset; one Case per item@seed
